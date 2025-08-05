@@ -1,0 +1,35 @@
+@charset "UFT=8";
+
+*{
+    margin: 1px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+menu ul{
+    list-style-type:none ;
+    background-color: rgb(255, 216, 216);
+    text-align: center;
+}
+
+menu li{
+    background-color: gray;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 555px;
+    margin: auto;
+    display: block;
+}
